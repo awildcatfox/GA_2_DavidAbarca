@@ -24,5 +24,10 @@ namespace GA_2_DavidAbarca
         {
             InitializeComponent();
         }
+
+        private void btnFullName_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

@@ -7,6 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Canvas>
+        <Label Content="David Abarca - Guided Assignment 2" Canvas.Left="481" Canvas.Top="28" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Label Content="Display Your Full Name - Message Box" Canvas.Left="123" Canvas.Top="28"/>
+        <Label Content="First Name" Canvas.Left="123" Canvas.Top="59"/>
+        <Label Content="Last Name" Canvas.Left="340" Canvas.Top="59" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <TextBox x:Name="txtFirstName" Canvas.Left="195" TextWrapping="Wrap" Canvas.Top="63" Width="120"/>
+        <TextBox x:Name="txtLastName" Canvas.Left="411" TextWrapping="Wrap" Canvas.Top="63" Width="120" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Button x:Name="btnFullName" Content="Display Full Name" Canvas.Left="548" Canvas.Top="59" HorizontalAlignment="Left" VerticalAlignment="Top" Width="174" Click="btnFullName_Click"/>
 
     </Canvas>
 </Window>
