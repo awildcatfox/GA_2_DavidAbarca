@@ -83,6 +83,32 @@ namespace GA_2_DavidAbarca
             lblEquation.Content = equation;
 
         }
+
+        private void txtWord_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            string usersWord = txtWord.Text; // Getting users word
+            int stringLength = usersWord.Length; // Getting how many characters are in the word
+            int lastIndex = stringLength - 1; // Getting the last index of the word
+            string formatedString = $"Enter a number between 0 and {lastIndex}"; // Displaying the range of 0 to the last index
+
+            // Displaying it to our label
+            lblNumberOfLetters.Content = formatedString;
+        }
+
+        private void btnDisplayLetter_Click(object sender, RoutedEventArgs e)
+        {
+           
+        }
+
+        private void btnDisplayLetter_Click_1(object sender, RoutedEventArgs e)
+        {
+            string userWord = txtWord.Text;
+            // Grabbing the word and parsing in one line
+            int usersNumber = int.Parse(txtCharIndex.Text);
+            char selectedChar = userWord[usersNumber];
+
+            txtDisplayLetter.Text = selectedChar.ToString();
+        }
     }
 
 

@@ -22,6 +22,13 @@
         <TextBox x:Name="txtNumber2" Canvas.Left="434" TextWrapping="Wrap"  Canvas.Top="161" Width="120"/>
         <Button x:Name="btnAdd" Content="Add" Canvas.Left="235" Canvas.Top="197" Click="btnAdd_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Width="66"/>
         <Button x:Name="btnSubtract" Content="Subtract" Canvas.Left="458" Canvas.Top="197" HorizontalAlignment="Left" VerticalAlignment="Top" Width="72" Click="btnSubtract_Click"/>
+        <Label Content="Display a Letter from a word - Text Box" Canvas.Left="138" Canvas.Top="236"/>
+        <Label Content="Enter a Word" Canvas.Left="138" Canvas.Top="267"/>
+        <Label x:Name="lblNumberOfLetters" Content="Enter a number" Canvas.Left="354" Canvas.Top="267" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <TextBox x:Name="txtWord" Canvas.Left="138" TextWrapping="Wrap"  Canvas.Top="293" Width="120" HorizontalAlignment="Left" VerticalAlignment="Top" TextChanged="txtWord_TextChanged"/>
+        <TextBox x:Name="txtCharIndex" Canvas.Left="354" TextWrapping="Wrap"  Canvas.Top="293" Width="120" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtDisplayLetter" Canvas.Left="605" TextWrapping="Wrap"  Canvas.Top="293" Width="120" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Button x:Name="btnDisplayLetter" Content="Display Letter" Canvas.Left="157" Canvas.Top="352" HorizontalAlignment="Left" VerticalAlignment="Top" Width="323" Click="btnDisplayLetter_Click_1"/>
 
     </Canvas>
 </Window>
