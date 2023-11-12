@@ -14,6 +14,14 @@
         <TextBox x:Name="txtFirstName" Canvas.Left="195" TextWrapping="Wrap" Canvas.Top="63" Width="120"/>
         <TextBox x:Name="txtLastName" Canvas.Left="411" TextWrapping="Wrap" Canvas.Top="63" Width="120" HorizontalAlignment="Left" VerticalAlignment="Center"/>
         <Button x:Name="btnFullName" Content="Display Full Name" Canvas.Left="548" Canvas.Top="59" HorizontalAlignment="Left" VerticalAlignment="Top" Width="174" Click="btnFullName_Click"/>
+        <Label Content="Perform a Calculation - Label" Canvas.Left="138" Canvas.Top="126"/>
+        <Label Content="Number 1" Canvas.Left="123" Canvas.Top="157"/>
+        <Label Content="Number 2" Canvas.Left="354" Canvas.Top="157"/>
+        <Label x:Name="lblEquation" Content="Sign" Canvas.Left="648" Canvas.Top="157"/>
+        <TextBox x:Name="txtNumber1" Canvas.Left="195" TextWrapping="Wrap"  Canvas.Top="161" Width="120" TextChanged="txtNumber1_TextChanged"/>
+        <TextBox x:Name="txtNumber2" Canvas.Left="434" TextWrapping="Wrap"  Canvas.Top="161" Width="120"/>
+        <Button x:Name="btnAdd" Content="Add" Canvas.Left="235" Canvas.Top="197" Click="btnAdd_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Width="66"/>
+        <Button x:Name="btnSubtract" Content="Subtract" Canvas.Left="458" Canvas.Top="197" HorizontalAlignment="Left" VerticalAlignment="Top" Width="72" Click="btnSubtract_Click"/>
 
     </Canvas>
 </Window>
