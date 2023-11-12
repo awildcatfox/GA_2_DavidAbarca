@@ -27,7 +27,16 @@ namespace GA_2_DavidAbarca
 
         private void btnFullName_Click(object sender, RoutedEventArgs e)
         {
+            string firstName = txtFirstName.Text;
+            string lastName = txtLastName.Text;
 
-        }
+            // Declare a third string, full name
+            // Concatenate ( combine ) the first and last name into one long string
+            string fullName = $"{firstName} {lastName}";
+
+            // Display full name on button click
+            MessageBox.Show(fullName);
+        } // btnFullName_Click
     }
 }
+ 
